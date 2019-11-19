@@ -1,0 +1,126 @@
+.mainContent {
+  background-image: url("../Images/HomelessMan.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 77%;
+
+  @media @phone {
+    height: 50vh;
+  }
+}
+
+.landingHOne {
+  font-size: 10rem;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  color: @blue;
+  padding: 2rem;
+  text-shadow: 4px 4px @slate;
+
+  @media @phone {
+    font-size: 5.6rem;
+    padding-top: 1.7rem;
+    padding-left: 0.7rem;
+  }
+}
+
+.landingH2 {
+  font-size: 6rem;
+  color: @blue;
+  padding-top: 8rem;
+  padding-left: 2rem;
+  text-shadow: 4px 4px @slate;
+
+  @media @phone {
+    padding-top: 4rem;
+    padding-left: 0.7rem;
+    font-size: 3rem;
+    width: 33%;
+    color: @pale;
+  }
+}
+
+//secondary content
+.secondaryContent {
+  background-color: @pale;
+  box-shadow: 1px 1px 3px 1px @pale;
+
+  h3 {
+    font-size: 5rem;
+    width: 48%;
+    padding: 2rem;
+    margin: 0 0 0 72.8rem;
+    color: @pale;
+    background-color: @blue;
+    text-align: center;
+    text-shadow: 4px 4px @slate;
+    box-shadow: 1px 1px 3px 1px @pale;
+
+    @media @phone {
+      width: 100%;
+      margin: 0 auto;
+      background-color: @grey;
+      font-size: 2rem;
+    }
+  }
+}
+.successStories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  @media @phone {
+    display: flex;
+    flex-direction: row;
+  }
+
+  p {
+    color: black;
+    font-size: 2rem;
+    width: 48%;
+    padding: 2rem;
+    text-shadow: 0px 0.3px @slate;
+
+    @media @phone {
+      font-size: 1.8rem;
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
+}
+
+.cta {
+  background-color: @pale;
+  box-shadow: 1px 1px 3px 1px @pale;
+}
+
+.landingBtn {
+  display: flex;
+  justify-content: center;
+
+  button {
+    padding-top: 4rem;
+    color: @pale;
+    background-color: @grey;
+    cursor: pointer;
+    padding: 2rem;
+    width: 33%;
+    border-radius: 2rem;
+    font-size: 2rem;
+
+    &:hover {
+      color: @slate;
+      background-color: @blue;
+    }
+
+    @media @phone {
+      padding: 2rem;
+      width: 70%;
+      border-radius: 2rem;
+      font-size: 2rem;
+      box-shadow: 1px 1px 3px 1px @slate;
+    }
+  }
+}

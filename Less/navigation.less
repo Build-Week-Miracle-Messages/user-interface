@@ -1,0 +1,24 @@
+.headerNav {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 2.7rem;
+  background-color: @blue;
+  box-shadow: 1px 1px 3px 1px @blue;
+
+  a {
+    text-decoration: none;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    padding: 10px;
+    color: @pale;
+
+    &:hover {
+      color: @slate;
+      transition-duration: 500ms;
+    }
+
+    @media @phone {
+      padding: 8px;
+    }
+  }
+}

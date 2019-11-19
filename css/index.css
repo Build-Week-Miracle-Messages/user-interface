@@ -1,0 +1,286 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+.container {
+  max-width: 1400px;
+  height: 100vh;
+  background-color: #3c4245;
+  margin: 0 auto;
+}
+.headerNav {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 2.7rem;
+  background-color: #719192;
+  box-shadow: 1px 1px 3px 1px #719192;
+}
+.headerNav a {
+  text-decoration: none;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  padding: 10px;
+  color: #dfcdc3;
+}
+.headerNav a:hover {
+  color: #3c4245;
+  transition-duration: 500ms;
+}
+@media (max-width: 375px) {
+  .headerNav a {
+    padding: 8px;
+  }
+}
+.mainContent {
+  background-image: url("../Images/HomelessMan.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 77%;
+}
+@media (max-width: 375px) {
+  .mainContent {
+    height: 50vh;
+  }
+}
+.landingHOne {
+  font-size: 10rem;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  color: #719192;
+  padding: 2rem;
+  text-shadow: 4px 4px #3c4245;
+}
+@media (max-width: 375px) {
+  .landingHOne {
+    font-size: 5.6rem;
+    padding-top: 1.7rem;
+    padding-left: 0.7rem;
+  }
+}
+.landingH2 {
+  font-size: 6rem;
+  color: #719192;
+  padding-top: 8rem;
+  padding-left: 2rem;
+  text-shadow: 4px 4px #3c4245;
+}
+@media (max-width: 375px) {
+  .landingH2 {
+    padding-top: 4rem;
+    padding-left: 0.7rem;
+    font-size: 3rem;
+    width: 33%;
+    color: #dfcdc3;
+  }
+}
+.secondaryContent {
+  background-color: #dfcdc3;
+  box-shadow: 1px 1px 3px 1px #dfcdc3;
+}
+.secondaryContent h3 {
+  font-size: 5rem;
+  width: 48%;
+  padding: 2rem;
+  margin: 0 0 0 72.8rem;
+  color: #dfcdc3;
+  background-color: #719192;
+  text-align: center;
+  text-shadow: 4px 4px #3c4245;
+  box-shadow: 1px 1px 3px 1px #dfcdc3;
+}
+@media (max-width: 375px) {
+  .secondaryContent h3 {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #5f6769;
+    font-size: 2rem;
+  }
+}
+.successStories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+@media (max-width: 375px) {
+  .successStories {
+    display: flex;
+    flex-direction: row;
+  }
+}
+.successStories p {
+  color: black;
+  font-size: 2rem;
+  width: 48%;
+  padding: 2rem;
+  text-shadow: 0px 0.3px #3c4245;
+}
+@media (max-width: 375px) {
+  .successStories p {
+    font-size: 1.8rem;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+.cta {
+  background-color: #dfcdc3;
+  box-shadow: 1px 1px 3px 1px #dfcdc3;
+}
+.landingBtn {
+  display: flex;
+  justify-content: center;
+}
+.landingBtn button {
+  padding-top: 4rem;
+  color: #dfcdc3;
+  background-color: #5f6769;
+  cursor: pointer;
+  padding: 2rem;
+  width: 33%;
+  border-radius: 2rem;
+  font-size: 2rem;
+}
+.landingBtn button:hover {
+  color: #3c4245;
+  background-color: #719192;
+}
+@media (max-width: 375px) {
+  .landingBtn button {
+    padding: 2rem;
+    width: 70%;
+    border-radius: 2rem;
+    font-size: 2rem;
+    box-shadow: 1px 1px 3px 1px #3c4245;
+  }
+}
