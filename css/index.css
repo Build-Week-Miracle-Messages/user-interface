@@ -138,6 +138,9 @@ html {
   background-color: #3c4245;
   margin: 0 auto;
 }
+p {
+  font-size: 2rem;
+}
 .headerNav {
   display: flex;
   justify-content: flex-end;
@@ -150,7 +153,7 @@ html {
   padding-top: 1rem;
   padding-bottom: 2rem;
   padding: 10px;
-  color: #dfcdc3;
+  color: white;
 }
 .headerNav a:hover {
   color: #3c4245;
@@ -160,6 +163,14 @@ html {
   .headerNav a {
     padding: 8px;
   }
+}
+.credits {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  background-color: #719192;
+  color: #3c4245;
+  font-size: 1.5rem;
 }
 .mainContent {
   background-image: url("../Images/HomelessMan.jpg");
@@ -202,29 +213,25 @@ html {
     padding-left: 0.7rem;
     font-size: 3rem;
     width: 33%;
-    color: #dfcdc3;
+    color: #719192;
   }
 }
 .secondaryContent {
-  background-color: #dfcdc3;
-  box-shadow: 1px 1px 3px 1px #dfcdc3;
+  background-color: lightgrey;
 }
 .secondaryContent h3 {
   font-size: 5rem;
-  width: 48%;
   padding: 2rem;
-  margin: 0 0 0 72.8rem;
-  color: #dfcdc3;
-  background-color: #719192;
+  color: #3c4245;
+  background-color: lightgrey;
   text-align: center;
-  text-shadow: 4px 4px #3c4245;
-  box-shadow: 1px 1px 3px 1px #dfcdc3;
+  text-shadow: 1px 1px #3c4245;
 }
 @media (max-width: 375px) {
   .secondaryContent h3 {
     width: 100%;
     margin: 0 auto;
-    background-color: #5f6769;
+    background-color: #719192;
     font-size: 2rem;
   }
 }
@@ -253,9 +260,95 @@ html {
     margin: 0 auto;
   }
 }
+.aboutUs {
+  background-color: lightgrey;
+}
+.aboutUs h4 {
+  color: #3c4245;
+  background-color: lightgrey;
+  text-align: left;
+  font-size: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 7rem;
+  text-shadow: 1px 1px #3c4245;
+}
+@media (max-width: 375px) {
+  .aboutUs h4 {
+    font-size: 2rem;
+  }
+}
+.tertiaryContent {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-left: 7rem;
+}
+@media (max-width: 375px) {
+  .tertiaryContent {
+    padding-left: 1rem;
+  }
+}
+.tertiaryContent p {
+  color: black;
+  font-size: 2rem;
+  width: 68%;
+  padding: 0.7rem;
+  text-shadow: 0px 0.3px #3c4245;
+}
+@media (max-width: 375px) {
+  .tertiaryContent p {
+    font-size: 1.8rem;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+.aboutUsCont {
+  background-color: lightGrey;
+}
+.aboutUsCont h4 {
+  color: #3c4245;
+  background-color: lightGrey;
+  text-align: left;
+  font-size: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 7rem;
+  text-shadow: 1px 1px #3c4245;
+}
+@media (max-width: 375px) {
+  .aboutUsCont h4 {
+    font-size: 2rem;
+  }
+}
+.tertiaryContentCont {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 7rem;
+}
+@media (max-width: 375px) {
+  .tertiaryContentCont {
+    padding-left: 1rem;
+  }
+}
+.tertiaryContentCont p {
+  color: black;
+  font-size: 2rem;
+  width: 68%;
+  padding: 0.7rem;
+  text-shadow: 0px 0.3px #3c4245;
+}
+@media (max-width: 375px) {
+  .tertiaryContentCont p {
+    font-size: 1.8rem;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
 .cta {
-  background-color: #dfcdc3;
-  box-shadow: 1px 1px 3px 1px #dfcdc3;
+  background-color: lightGrey;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 .landingBtn {
   display: flex;
@@ -263,8 +356,8 @@ html {
 }
 .landingBtn button {
   padding-top: 4rem;
-  color: #dfcdc3;
-  background-color: #5f6769;
+  color: white;
+  background-color: #719192;
   cursor: pointer;
   padding: 2rem;
   width: 33%;
@@ -272,11 +365,58 @@ html {
   font-size: 2rem;
 }
 .landingBtn button:hover {
-  color: #3c4245;
-  background-color: #719192;
+  color: white;
+  background-color: #3c4245;
 }
 @media (max-width: 375px) {
   .landingBtn button {
+    padding: 2rem;
+    width: 70%;
+    border-radius: 2rem;
+    font-size: 2rem;
+    box-shadow: 1px 1px 3px 1px #3c4245;
+  }
+}
+.famButton .mB1 {
+  display: block;
+  padding-top: 4rem;
+  color: white;
+  background-color: #719192;
+  cursor: pointer;
+  padding: 2rem;
+  border-radius: 2rem;
+  font-size: 2rem;
+}
+.famButton .mB1:hover {
+  color: white;
+  background-color: #3c4245;
+}
+@media (max-width: 375px) {
+  .famButton .mB1 {
+    padding: 2rem;
+    width: 70%;
+    border-radius: 2rem;
+    font-size: 2rem;
+    box-shadow: 1px 1px 3px 1px #3c4245;
+  }
+}
+.mB2 {
+  display: block;
+  padding-top: 4rem;
+  color: white;
+  background-color: #719192;
+  cursor: pointer;
+  padding: 2rem;
+  width: 100%;
+  border-radius: 2rem;
+  font-size: 2rem;
+}
+.mB2:hover {
+  color: white;
+  background-color: #3c4245;
+}
+@media (max-width: 375px) {
+  .mB2 {
     padding: 2rem;
     width: 70%;
     border-radius: 2rem;
