@@ -14,10 +14,36 @@
   justify-content: space-evenly;
 }
 
+.rightFlex() {
+  display: flex;
+  justify-content: right;
+  padding-top: 2rem;
+}
+
+.devTitles() {
+  color: @white;
+  font-size: 6rem;
+  width: 66%;
+  text-align: center;
+  text-shadow: 1px 1px @blue;
+
+  @media @phone {
+    font-size: 3rem;
+  }
+}
+.teamSizing() {
+  width: 35%;
+  height: 35rem;
+
+  @media @phone {
+    height: 20rem;
+    width: 60%;
+  }
+}
 //minxins end here
 
 //media escapes here
 
-@phone: ~"(max-width: 375px)";
+@phone: ~"(max-width: 500px)";
 
 //media escapes end here

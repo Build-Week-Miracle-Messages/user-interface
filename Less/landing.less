@@ -185,18 +185,17 @@
 //Call To Action Button
 
 .cta {
-  background-color: lightGrey;
+  background-color: @lightGrey;
   padding-top: 6rem;
   padding-bottom: 2rem;
 }
 
 .landingBtn {
-  display: flex;
-  justify-content: center;
+  .centerFlex();
 
   button {
     padding-top: 4rem;
-    color: white;
+    color: @white;
     background-color: @blue;
     cursor: pointer;
     padding: 2rem;
@@ -205,7 +204,7 @@
     font-size: 2rem;
 
     &:hover {
-      color: white;
+      color: @white;
       background-color: @slate;
     }
 
@@ -229,7 +228,7 @@
 
   .mB1 {
     display: block;
-    color: white;
+    color: @white;
     background-color: @blue;
     cursor: pointer;
     padding: 2rem;
@@ -238,7 +237,7 @@
     font-size: 2rem;
 
     &:hover {
-      color: white;
+      color: @white;
       background-color: @slate;
     }
 
@@ -259,7 +258,7 @@
 
   .mB2 {
     display: block;
-    color: white;
+    color: @white;
     background-color: @blue;
     cursor: pointer;
     padding: 2rem;
@@ -269,16 +268,11 @@
     font-size: 2rem;
 
     &:hover {
-      color: white;
+      color: @white;
       background-color: @slate;
     }
 
     @media @phone {
-      // //padding: 2rem;
-      // width: 70%;
-      // border-radius: 2rem;
-      // font-size: 2rem;
-      // box-shadow: 1px 1px 3px 1px @slate;
       display: none;
     }
   }
