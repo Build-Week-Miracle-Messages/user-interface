@@ -259,6 +259,11 @@ p {
     width: 100%;
   }
 }
+@media (max-width: 800px) {
+  .successStories p {
+    width: 100%;
+  }
+}
 .aboutUs {
   background-color: lightgrey;
 }
@@ -447,6 +452,11 @@ p {
     height: 120vh;
   }
 }
+@media (max-width: 800px) {
+  .teamHero {
+    height: 188vh;
+  }
+}
 .theTeam {
   color: white;
   font-size: 6rem;
@@ -467,6 +477,7 @@ p {
 .uzias .uziasImg {
   width: 35%;
   height: 35rem;
+  padding-right: 2rem;
 }
 @media (max-width: 500px) {
   .uzias .uziasImg {
@@ -482,6 +493,7 @@ p {
 .cam .camImg {
   width: 35%;
   height: 35rem;
+  padding-right: 2rem;
 }
 @media (max-width: 500px) {
   .cam .camImg {
@@ -497,6 +509,7 @@ p {
 .mashima .mashimaImg {
   width: 35%;
   height: 35rem;
+  padding-right: 2rem;
 }
 @media (max-width: 500px) {
   .mashima .mashimaImg {
@@ -512,6 +525,7 @@ p {
 .chris .chrisImg {
   width: 35%;
   height: 35rem;
+  padding-right: 2rem;
 }
 @media (max-width: 500px) {
   .chris .chrisImg {
